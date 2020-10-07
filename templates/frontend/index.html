@@ -1,0 +1,25 @@
+{% extends 'frontend/base.html' %}{% load static %}
+{% block title %} Home {% endblock %}
+{% block content %}
+<div class="jumbotron">
+    <h1 class="display-3">SUPERCAR DISPLAY</h1>
+    <p class="lead" style="font-size: 200% ;">Koenigsegg</p>
+    <p>
+        <img style="width: 1200px"src="{% static 'images/1.jpg'%}">
+    </p>
+    <p class="lead" style="font-size: 200% ;">Porsche</p>
+    <p>
+        <img style="width: 1200px"src="{% static 'images/2.jpg'%}">
+    </p>
+    <p class="lead" style="font-size: 200% ;">Bugatti</p>
+    <p>
+        <img style="width: 1200px"src="{% static 'images/3.jpg'%}">
+    </p>
+    <p class="lead" style="font-size: 200% ;">Gemera</p>
+    <p>
+        <img style="width: 1200px"src="{% static 'images/4.jpg'%}">
+    </p>
+    
+    
+</div>
+{% endblock %}
